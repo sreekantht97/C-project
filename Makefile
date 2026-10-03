@@ -1,8 +1,8 @@
 CC = gcc
 CFLAGS = -Wall -Wextra -std=c11
 
-ABC: main.o big3.o fact.o
-	$(CC) $(CFLAGS) main.o big3.o fact.o -o ABC
+ABC: main.o big3.o fact.o pal.o
+	$(CC) $(CFLAGS) main.o big3.o fact.o pal.o -o ABC
 
 main.o: main.c
 	$(CC) $(CFLAGS) -c main.c
