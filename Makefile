@@ -15,3 +15,4 @@ pal.o: pal.c
 
 clean:
 	rm -f *.o ABC.exe
+
