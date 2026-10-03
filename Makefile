@@ -12,6 +12,8 @@ big3.o: big3.c
 
 fact.o: fact.c
 	$(CC) $(CFLAGS) -c fact.c
-
+pal.o: pal.c
+	$(CC) $(CFLAGS) -c pal.c
+	
 clean:
 	rm -f *.o ABC
